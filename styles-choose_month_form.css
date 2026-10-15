@@ -1,0 +1,152 @@
+body {font-family: Arial;}
+
+/* Table Settings */
+table {
+	width: 600px;
+}
+td {
+	padding: 0px 3px 0px 3px;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}
+th {
+	letter-spacing: 0.lem;
+	font-size: 90%;
+	padding: 5px 5px 5px 5px;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: center;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	background-color: #c3e6e5;
+}
+tr.even {
+	background-color: #efefef;
+	border-bottom: 1px solid #999;
+}
+tr.textcopy {
+	background-color: #FFF6EF;
+	border-bottom: 1px solid #999;
+}
+tr:hover {
+	background-color: #c3e6e5;
+}
+.money {
+	text-align: left;
+}
+.mycell {
+	border-bottom: 1px solid #999
+}
+.mycell2 {
+	border-bottom: 1px solid #999
+}
+
+/* Radio Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.radiobuttons-black {
+  font-size: 80%;
+  padding: 0px 3px;
+}
+.radiobuttons-black:hover {
+	background-color: #efefef;
+}
+.radiobuttons-blue {
+  font-size: 80%;
+  padding: 0px 3px;
+}
+.radiobuttons-blue:hover {
+	background-color: #efefef;
+}
+/* Static Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.studentname {
+  font-size: 80%;
+  padding: 0px 0px;
+}
+h2 {
+  font-size: 150%;
+  text-align: center;
+  background-color: #FFBBAA;
+  padding: 6px 0px 6px 0px;
+}
+h5 {
+  font-size: 120%;
+}
+/* Red background showing that the student did not attend class that week */
+h6 {
+  font-size: 70%;
+  text-align: center;
+  background-color: #FED7D9;
+}
+/* Green background showing that the student attended class that week */
+h4 {
+  font-size: 70%;
+  text-align: center;
+  background-color: #EAF9F8;
+}
+/* choose_advisor and choose_month forms */
+table.searchform {
+	width: 600px;
+}
+/* Radio Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+table.searchform input[type=radio] {
+	position: left;
+}
+table.searchform label {
+	cursor: pointer;
+	font-weight: 400;
+}
+table.searchform .check {
+	width: 30px; height: 30px;
+	position: absolute;
+	border-radius: 50%;
+	transition: transform .6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+table.searchform .myheading {
+  width: 20em;
+  border: 3px solid #c3e6e5;
+  background-color: #c3e6e5;
+  padding: 3px 3px;
+  position: center;
+  text-align: center;
+}
+table.searchform .radiobuttons {
+  width: 20em;
+  border: 3px solid #c3e6e5;
+  padding: 3px 3px;
+  position: center;
+  text-align: center;
+}
+table.searchform input[type=button] {
+	position: left;
+}
+table.searchform .col-md-3 {
+    float: left;
+    width: 0%;
+}
+h3 {
+	font-size: 135%;
+	color: #000000;
+}
+h1 {
+	font-size: 115%;
+	color: #000000;
+}
+h4 {
+	font-size: 100%;
+	text-align: left;
+}
+
+/* This adjusts the margins created by Moodle so that more info fits in the cell */
+.row {
+    margin-left: -10px;
+}
+
+/* This adjusts the margins created by Moodle so that more info fits in the cell */
+.col-md-9 {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 100%;
+	max-width: 100%;
+}

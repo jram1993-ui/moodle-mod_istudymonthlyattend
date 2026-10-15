@@ -1,0 +1,150 @@
+body {font-family: Arial;}
+
+/* Table Settings */
+table {
+	width: 600px;
+}
+td {
+	padding: 0px 3px 0px 3px;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}
+th {
+	letter-spacing: 0.lem;
+	font-size: 90%;
+	padding: 5px 5px 5px 5px;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: center;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	background-color: #c3e6e5;
+}
+tr.even {
+	background-color: #efefef;
+	border-bottom: 1px solid #999;
+}
+tr.textcopy {
+	background-color: #FFF6EF;
+	border-bottom: 1px solid #999;
+}
+tr:hover {
+	background-color: #c3e6e5;
+}
+.money {
+	text-align: left;
+}
+.mycell {
+	border-bottom: 1px solid #999
+}
+
+/* Radio Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.radiobuttons-zero {
+	font-size: 80%;
+	margin-right: 4px;
+	padding: 0px 3px;
+	border: solid #8b8787;
+	border-width: 2px 2px 2px 2px;
+	background-color: #f0ebeb;
+  }
+  .radiobuttons-zero:hover {
+	  background-color: #ffd8ae;
+  }
+  .radiobuttons-20hours {
+	font-size: 90%;
+	margin-left: 1px;
+	margin-right: 10px;
+	font-weight: 750;
+	padding: 0px 3px;
+	border: solid #828dca;
+	border-width: 3px 3px 3px 3px;
+	background-color: #d9ddf3;
+  }
+  .radiobuttons-16hours:hover {
+	  background-color: #ffd8ae;
+  }
+.radiobuttons-lightblue {
+  font-size: 80%;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 0px 3px;
+  border: solid #add2e0;
+  border-width: 1px 1px 1px 1px;
+  background-color: #eaf4f8;
+}
+.radiobuttons-lightblue:hover {
+	background-color: #ffd8ae;
+}
+.radiobuttons-blue {
+  font-size: 80%;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 0px 3px;
+  border: solid #98c7d6;
+  border-width: 1px 1px 1px 1px;
+  background-color: #dae9ee;
+}
+.radiobuttons-blue:hover {
+	background-color: #ffd8ae;
+}
+.radiobuttons-fullday {
+	font-size: 90%;
+	margin-left: 1px;
+	margin-right: 1px;
+	font-weight: 750;
+	padding: 0px 3px;
+	border: solid #828dca;
+	border-width: 3px 3px 3px 3px;
+	background-color: #d9ddf3;
+  }
+  .radiobuttons-fullday:hover {
+	  background-color: #ffd8ae;
+  }
+
+/* Static Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.studentname {
+  font-size: 80%;
+  padding: 0px 0px;
+}
+h2 {
+  font-size: 150%;
+  text-align: center;
+  background-color: #FFBBAA;
+  padding: 6px 0px 6px 0px;
+}
+h5 {
+  font-size: 120%;
+}
+/* Yello background showing that the student was tardy to class that week */
+h3 {
+  font-size: 70%;
+  text-align: center;
+  background-color: #f4f7cb;
+}
+/* Green background showing that the student attended class that week */
+h4 {
+  font-size: 70%;
+  text-align: center;
+  background-color: #EAF9F8;
+}
+/* Red background showing that the student did not attend class that week */
+h6 {
+  font-size: 70%;
+  text-align: center;
+  background-color: #FED7D9;
+}
+
+/* This adjusts the margins created by Moodle so that more info fits in the cell */
+.row {
+    margin-left: -10px;
+}
+
+/* This adjusts the margins created by Moodle so that more info fits in the cell */
+.col-md-9 {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 100%;
+	max-width: 100%;
+}
